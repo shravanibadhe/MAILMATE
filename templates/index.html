@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="color-scheme" content="light">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MailMate - Email Reply Generator</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light;--bg:#f3f6fb;--card:#ffffff;--ink:#0f172a;--mute:#64748b;--line:#dbe3ee;--accent:#4f46e5;--accent2:#e6e8ff;--ok:#059669}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,#eef2ff 0,var(--bg) 320px) no-repeat,var(--bg);color:var(--ink);font:15px/1.55 Inter,system-ui,sans-serif}
+header{max-width:1120px;margin:0 auto;padding:36px 24px 8px}
+h1{font:800 42px/1.05 Fraunces,Georgia,serif;margin:0;letter-spacing:-.02em}
+h1 span{color:var(--accent)}
+header p{color:var(--mute);margin:8px 0 0;max-width:560px}
+main{max-width:1120px;margin:0 auto;padding:20px 24px 60px;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media (max-width:820px){main{grid-template-columns:1fr}h1{font-size:34px}}
+.card{box-shadow:0 1px 2px rgba(15,23,42,.05),0 8px 24px rgba(79,70,229,.06);background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+h2{font:600 13px Inter;text-transform:uppercase;letter-spacing:.09em;color:var(--mute);margin:0 0 12px}
+textarea,input{width:100%;background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:12px;font:inherit}
+textarea{min-height:230px;resize:vertical}
+textarea:focus,input:focus{outline:2px solid var(--accent);border-color:transparent}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.seg button{border:0;background:none;color:var(--mute);padding:8px 14px;font:500 14px Inter;cursor:pointer}
+.seg button.on{background:var(--accent2);color:var(--accent)}
+.lbl{font-size:12px;color:var(--mute);width:100%;margin-bottom:-4px}
+.btn{background:var(--accent);color:#fff;border:0;border-radius:10px;padding:11px 20px;font:600 15px Inter;cursor:pointer}
+.btn.ghost{background:none;color:var(--ink);border:1px solid var(--line);padding:8px 14px;font-size:13px}
+.samples button{background:none;border:1px dashed var(--line);color:var(--mute);border-radius:99px;padding:4px 12px;font-size:12px;cursor:pointer}
+.samples button:hover{color:var(--accent);border-color:var(--accent)}
+#reply{white-space:pre-wrap;min-height:190px;font-size:15px;border-left:3px solid var(--accent);padding-left:14px}
+.empty{color:var(--mute);font-style:italic}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.chip{background:var(--accent2);color:var(--accent);border-radius:99px;padding:3px 11px;font-size:12.5px;font-weight:500}
+.chip.n{background:var(--line);color:var(--ink)}
+.bar{height:6px;background:var(--line);border-radius:9px;overflow:hidden;margin:6px 0 14px}
+.bar i{display:block;height:100%;background:var(--accent);transition:width .5s}
+.meta{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:13.5px}
+.meta b{color:var(--mute);font-weight:500}
+.full{grid-column:1/-1}
+</style>
+</head>
+<body>
+<header>
+  <h1>Mail<span>Mate</span></h1>
+  <p>Paste any email. Basic NLP reads the intent, people, dates and mood - then drafts a reply in the tone you pick.</p>
+</header>
+<main>
+  <section class="card">
+    <h2>Incoming email</h2>
+    <textarea id="email" placeholder="Paste the email you received..."></textarea>
+    <div class="row samples"><span class="lbl" style="margin:0">Try:</span>
+      <button data-s="0">Meeting</button><button data-s="1">Complaint</button><button data-s="2">Leave</button><button data-s="3">Event</button>
+    </div>
+    <div class="row">
+      <span class="lbl">Tone</span>
+      <div class="seg" id="tone"><button class="on" data-v="formal">Formal</button><button data-v="friendly">Friendly</button><button data-v="concise">Concise</button></div>
+      <span class="lbl">Your answer (for meetings, events, leave, interviews)</span>
+      <div class="seg" id="action"><button class="on" data-v="accept">Accept</button><button data-v="decline">Decline</button></div>
+    </div>
+    <div class="row"><input id="name" placeholder="Your name (signature)" style="max-width:240px">
+      <button class="btn" id="go">Generate reply</button></div>
+  </section>
+
+  <section class="card">
+    <h2>Generated reply</h2>
+    <div id="reply"><span class="empty">Your reply will appear here.</span></div>
+    <div class="row"><button class="btn ghost" id="copy">Copy</button><button class="btn ghost" id="regen">Regenerate</button><span id="msg" class="lbl" style="width:auto;margin:0"></span></div>
+  </section>
+
+  <section class="card full" id="analysis" hidden>
+    <h2>What the NLP found</h2>
+    <div class="meta" id="meta"></div>
+  </section>
+</main>
+<script>
+const $=s=>document.querySelector(s);
+const SAMPLES=[
+"Hi,\n\nCan we schedule a meeting with the design team on Friday at 3 pm to discuss the launch?\n\nRegards\nPriya Sharma",
+"Hello,\n\nI am very disappointed. My order #AB12345 arrived damaged and I need a refund urgently.\n\nThanks\nRahul Mehta",
+"Hi Manager,\n\nI would like to request leave from 12 October to 14 October due to a family function.\n\nRegards\nAmit Patil",
+"Dear team,\n\nYou are invited to our annual conference on 5 December at Taj Hotel. Please RSVP.\n\nBest\nNeha Verma"];
+document.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{$('#email').value=SAMPLES[b.dataset.s];go()});
+function seg(id){const el=$(id);el.onclick=e=>{if(e.target.tagName!=='BUTTON')return;el.querySelectorAll('button').forEach(x=>x.classList.remove('on'));e.target.classList.add('on');if($('#email').value.trim())go()}}
+seg('#tone');seg('#action');
+const val=id=>$(id+' .on').dataset.v;
+const chips=(a,c='')=>a&&a.length?a.map(x=>`<span class="chip ${c}">${x.replace(/</g,'&lt;')}</span>`).join(''):'<span style="color:var(--mute)">none</span>';
+async function go(){
+  const email=$('#email').value.trim();
+  if(!email){$('#msg').textContent='Paste an email first.';return}
+  $('#msg').textContent='';
+  const r=await fetch('/api/generate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email,tone:val('#tone'),action:val('#action'),name:$('#name').value})});
+  const d=await r.json();
+  if(!r.ok){$('#msg').textContent=d.error;return}
+  $('#reply').textContent=d.reply;
+  const a=d.analysis,e=a.entities;
+  $('#analysis').hidden=false;
+  $('#meta').innerHTML=`
+   <b>Intent</b><div><span class="chip">${a.intent}</span> ${a.confidence}% match<div class="bar"><i style="width:${a.confidence}%"></i></div></div>
+   <b>Sentiment</b><div>${chips([a.sentiment+(a.urgent?' - urgent':'')],'n')}</div>
+   <b>Sender</b><div>${chips(a.sender?[a.sender]:[])}</div>
+   <b>People</b><div>${chips(e.people)}</div>
+   <b>Dates / times</b><div>${chips(e.dates.concat(e.times))}</div>
+   <b>Orgs / money</b><div>${chips(e.orgs.concat(e.money))}</div>
+   <b>Reference</b><div>${chips(a.reference?[a.reference]:[])}</div>
+   <b>Engine</b><div style="color:var(--mute)">${a.model} - ${a.words} tokens</div>`;
+}
+$('#go').onclick=go;$('#regen').onclick=go;
+$('#copy').onclick=async()=>{await navigator.clipboard.writeText($('#reply').textContent);$('#msg').textContent='Copied!'};
+</script>
+</body>
+</html>
