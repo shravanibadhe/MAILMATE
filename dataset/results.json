@@ -1,0 +1,236 @@
+{
+ "total": 230,
+ "intent_acc_all": 96.1,
+ "intent_acc_standard": 100.0,
+ "n_standard": 200,
+ "intent_acc_hard": 70.0,
+ "n_hard": 30,
+ "sentiment_acc": 93.0,
+ "urgency_acc": 100.0,
+ "sender_acc": 100.0,
+ "date_acc": 99.1,
+ "time_acc": 100.0,
+ "ref_acc": 100.0,
+ "per_class": {
+  "meeting": {
+   "support": 24,
+   "precision": 100.0,
+   "recall": 95.8,
+   "f1": 97.9
+  },
+  "interview": {
+   "support": 22,
+   "precision": 100.0,
+   "recall": 100.0,
+   "f1": 100.0
+  },
+  "leave": {
+   "support": 23,
+   "precision": 95.5,
+   "recall": 91.3,
+   "f1": 93.3
+  },
+  "complaint": {
+   "support": 23,
+   "precision": 100.0,
+   "recall": 95.7,
+   "f1": 97.8
+  },
+  "payment": {
+   "support": 23,
+   "precision": 100.0,
+   "recall": 100.0,
+   "f1": 100.0
+  },
+  "order": {
+   "support": 23,
+   "precision": 100.0,
+   "recall": 95.7,
+   "f1": 97.8
+  },
+  "application": {
+   "support": 22,
+   "precision": 100.0,
+   "recall": 95.5,
+   "f1": 97.7
+  },
+  "event": {
+   "support": 23,
+   "precision": 95.7,
+   "recall": 95.7,
+   "f1": 95.7
+  },
+  "thanks": {
+   "support": 23,
+   "precision": 95.7,
+   "recall": 95.7,
+   "f1": 95.7
+  },
+  "general": {
+   "support": 24,
+   "precision": 79.3,
+   "recall": 95.8,
+   "f1": 86.8
+  }
+ },
+ "confusion": {
+  "meeting": {
+   "meeting": 23,
+   "interview": 0,
+   "leave": 0,
+   "complaint": 0,
+   "payment": 0,
+   "order": 0,
+   "application": 0,
+   "event": 0,
+   "thanks": 0,
+   "general": 1
+  },
+  "interview": {
+   "meeting": 0,
+   "interview": 22,
+   "leave": 0,
+   "complaint": 0,
+   "payment": 0,
+   "order": 0,
+   "application": 0,
+   "event": 0,
+   "thanks": 0,
+   "general": 0
+  },
+  "leave": {
+   "meeting": 0,
+   "interview": 0,
+   "leave": 21,
+   "complaint": 0,
+   "payment": 0,
+   "order": 0,
+   "application": 0,
+   "event": 0,
+   "thanks": 0,
+   "general": 2
+  },
+  "complaint": {
+   "meeting": 0,
+   "interview": 0,
+   "leave": 0,
+   "complaint": 22,
+   "payment": 0,
+   "order": 0,
+   "application": 0,
+   "event": 0,
+   "thanks": 0,
+   "general": 1
+  },
+  "payment": {
+   "meeting": 0,
+   "interview": 0,
+   "leave": 0,
+   "complaint": 0,
+   "payment": 23,
+   "order": 0,
+   "application": 0,
+   "event": 0,
+   "thanks": 0,
+   "general": 0
+  },
+  "order": {
+   "meeting": 0,
+   "interview": 0,
+   "leave": 0,
+   "complaint": 0,
+   "payment": 0,
+   "order": 22,
+   "application": 0,
+   "event": 0,
+   "thanks": 1,
+   "general": 0
+  },
+  "application": {
+   "meeting": 0,
+   "interview": 0,
+   "leave": 0,
+   "complaint": 0,
+   "payment": 0,
+   "order": 0,
+   "application": 21,
+   "event": 0,
+   "thanks": 0,
+   "general": 1
+  },
+  "event": {
+   "meeting": 0,
+   "interview": 0,
+   "leave": 0,
+   "complaint": 0,
+   "payment": 0,
+   "order": 0,
+   "application": 0,
+   "event": 22,
+   "thanks": 0,
+   "general": 1
+  },
+  "thanks": {
+   "meeting": 0,
+   "interview": 0,
+   "leave": 0,
+   "complaint": 0,
+   "payment": 0,
+   "order": 0,
+   "application": 0,
+   "event": 1,
+   "thanks": 22,
+   "general": 0
+  },
+  "general": {
+   "meeting": 0,
+   "interview": 0,
+   "leave": 1,
+   "complaint": 0,
+   "payment": 0,
+   "order": 0,
+   "application": 0,
+   "event": 0,
+   "thanks": 0,
+   "general": 23
+  }
+ },
+ "errors": [
+  [
+   "complaint",
+   "general"
+  ],
+  [
+   "leave",
+   "general"
+  ],
+  [
+   "leave",
+   "general"
+  ],
+  [
+   "meeting",
+   "general"
+  ],
+  [
+   "order",
+   "thanks"
+  ],
+  [
+   "general",
+   "leave"
+  ],
+  [
+   "thanks",
+   "event"
+  ],
+  [
+   "application",
+   "general"
+  ],
+  [
+   "event",
+   "general"
+  ]
+ ]
+}

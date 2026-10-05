@@ -1,0 +1,1381 @@
+id,subject,email,intent,sentiment,urgent,sender,date,time,reference,level
+1,Order status,"Hi team,
+
+Could you please share the tracking details for my order #ORD63841? The package has not arrived.
+
+Cheers
+Tanvi Shah",order,neutral,no,Tanvi Shah,,,#ORD63841,standard
+2,Payment,"Dear Sir/Madam,
+
+I have made the payment of Rs. 8,500 for invoice INV-15224. Please share the receipt.
+
+Regards
+Divya Menon",payment,neutral,no,Divya Menon,,,INV-15224,standard
+3,Leave request,"Hi team,
+
+I would like to request leave from 5 November to Thursday due to a family function.
+
+Thanks
+Rahul Mehta",leave,neutral,no,Rahul Mehta,5 November,,,standard
+4,Meeting request,"Hi,
+
+Please let me know if we can meet on Wednesday at 2 pm to discuss the launch plan.
+
+Regards
+Farhan Sheikh",meeting,neutral,no,Farhan Sheikh,Wednesday,2 pm,,standard
+5,(hard case),"Dear Sir/Madam,
+
+I am extremely unhappy with how my case was handled. This delay is not acceptable.
+
+Best
+Deepak Kulkarni",complaint,negative,no,Deepak Kulkarni,,,,hard
+6,Payment,"Hello,
+
+We have not received the payment for invoice INV-55607. Please pay at the earliest.
+
+Best
+Neha Verma",payment,neutral,no,Neha Verma,,,INV-55607,standard
+7,(hard case),"Hi,
+
+I will be away from 12 October to 14 October. Please manage my tasks.
+
+Thanks
+Manoj Pawar",leave,neutral,no,Manoj Pawar,12 October,,,hard
+8,Meeting request,"Good morning,
+
+I need to reschedule our meeting planned for 5 November. Can we do 2 pm instead?
+
+Regards
+Manoj Pawar",meeting,neutral,no,Manoj Pawar,5 November,2 pm,,standard
+9,Leave request,"Hi team,
+
+I would like to request leave from 20 November to 5 November due to a family function.
+
+Thanks
+Neha Verma",leave,neutral,no,Neha Verma,20 November,,,standard
+10,Job application,"Hi,
+
+I would like to apply for the data analyst job. My CV is attached for your review.
+
+Thanks
+Manoj Pawar",application,neutral,no,Manoj Pawar,,,,standard
+11,Complaint,"Hello,
+
+This is the worst service. The product is broken and nobody has fixed the problem.
+
+Cheers
+Meera Iyer",complaint,negative,no,Meera Iyer,,,,standard
+12,Interview invitation,"Hi,
+
+Thank you for applying. We would like to take the next round of interview on Wednesday at 3 pm.
+
+Regards
+Pooja Kulkarni",interview,neutral,no,Pooja Kulkarni,Wednesday,3 pm,,standard
+13,Payment,"Good morning,
+
+This is a reminder that your bill of $45,000 is due on Friday. Kindly complete the payment.
+
+Best
+Divya Menon",payment,neutral,no,Divya Menon,Friday,,,standard
+14,Meeting request,"Good morning,
+
+Can we schedule a meeting on Tuesday at 5 pm to discuss the project?
+
+Regards
+Neha Verma",meeting,neutral,no,Neha Verma,Tuesday,5 pm,,standard
+15,Quick question,"Hi team,
+
+Could you share the updated project notes when possible?
+
+Cheers
+Kavita Nair",general,neutral,no,Kavita Nair,,,,standard
+16,Interview invitation,"Hello,
+
+Thank you for applying. We would like to take the next round of interview on Monday at 10 am.
+
+Sincerely
+Tanvi Shah",interview,neutral,no,Tanvi Shah,Monday,10 am,,standard
+17,Quick question,"Hello,
+
+Are you free to help me with something? It is about the report.
+
+Regards
+Anita Deshmukh",general,neutral,no,Anita Deshmukh,,,,standard
+18,(hard case),"Hello,
+
+Really grateful for your support during the audit.
+
+Regards
+Tanvi Shah",thanks,positive,no,Tanvi Shah,,,,hard
+19,Job application,"Good morning,
+
+Please consider my application for the content writer vacancy. My CV is enclosed.
+
+Regards
+Sanjay Rao",application,neutral,no,Sanjay Rao,,,,standard
+20,Order status,"Dear Sir/Madam,
+
+Could you please share the tracking details for my order #ORD40433? The package has not arrived.
+
+Regards
+Manoj Pawar",order,neutral,no,Manoj Pawar,,,#ORD40433,standard
+21,Meeting request,"Hi,
+
+I would like to set up a call on Wednesday at 11 am with the design team.
+
+Regards
+Tanvi Shah",meeting,neutral,no,Tanvi Shah,Wednesday,11 am,,standard
+22,Interview invitation,"Dear Sir/Madam,
+
+We would like to invite you for an interview for the Software Engineer position on Monday at 3 pm. Please confirm your availability.
+
+Cheers
+Manoj Pawar",interview,neutral,no,Manoj Pawar,Monday,3 pm,,standard
+23,Job application,"Hi,
+
+I am interested in the open position of web developer and have attached my resume.
+
+Cheers
+Pooja Kulkarni",application,neutral,no,Pooja Kulkarni,,,,standard
+24,Interview invitation,"Hi,
+
+Thank you for applying. We would like to take the next round of interview on 20 November at 10 am.
+
+Regards
+Karan Malhotra",interview,neutral,no,Karan Malhotra,20 November,10 am,,standard
+25,Invitation,"Hello,
+
+We are hosting a webinar on data privacy on 20 November at 10 am. We would love for you to join. Kindly RSVP.
+
+Sincerely
+Anita Deshmukh",event,neutral,no,Anita Deshmukh,20 November,10 am,,standard
+26,Thank you,"Hi team,
+
+Thanks for the quick support yesterday. I am grateful for your time.
+
+Best
+Rahul Mehta",thanks,positive,no,Rahul Mehta,,,,standard
+27,Leave request,"Hi team,
+
+I need a day off on Tuesday for a personal matter. Kindly grant leave.
+
+Best
+Divya Menon",leave,neutral,no,Divya Menon,Tuesday,,,standard
+28,Order status,"Hi,
+
+I want to track my shipment for order #ORD28894.
+
+Cheers
+Sanjay Rao",order,neutral,no,Sanjay Rao,,,#ORD28894,standard
+29,Thank you,"Hello,
+
+Thank you so much for your help with the project. I really appreciate it.
+
+Best
+Karan Malhotra",thanks,positive,no,Karan Malhotra,,,,standard
+30,Meeting request,"Dear Sir/Madam,
+
+I need to reschedule our meeting planned for 15 January. Can we do 11 am instead?
+
+Cheers
+Deepak Kulkarni",meeting,neutral,no,Deepak Kulkarni,15 January,11 am,,standard
+31,Quick question,"Hi,
+
+Could you share the updated project notes when possible?
+
+Regards
+Farhan Sheikh",general,neutral,no,Farhan Sheikh,,,,standard
+32,Thank you,"Hi,
+
+Many thanks for sending the notes. I truly appreciate your effort.
+
+Cheers
+Pooja Kulkarni",thanks,positive,no,Pooja Kulkarni,,,,standard
+33,Thank you,"Hello,
+
+Many thanks for sending the notes. I truly appreciate your effort.
+
+Regards
+Sanjay Rao",thanks,positive,no,Sanjay Rao,,,,standard
+34,Payment,"Dear Sir/Madam,
+
+Please find attached invoice INV-45954 for Rs. 12,000. Payment is due by Monday.
+
+Thanks
+Pooja Kulkarni",payment,neutral,no,Pooja Kulkarni,Monday,,INV-45954,standard
+35,Complaint,"Hi team,
+
+I have a complaint about the delay. The issue has not been solved for three days and this is unacceptable. Please reply ASAP.
+
+Thanks
+Sanjay Rao",complaint,negative,yes,Sanjay Rao,,,,standard
+36,Interview invitation,"Good morning,
+
+Your interview with our hiring team is scheduled for 3 December at 11 am. Kindly confirm.
+
+Sincerely
+Rahul Mehta",interview,neutral,no,Rahul Mehta,3 December,11 am,,standard
+37,Quick question,"Good morning,
+
+Could you share the updated project notes when possible?
+
+Sincerely
+Tanvi Shah",general,neutral,no,Tanvi Shah,,,,standard
+38,Quick question,"Hello,
+
+Are you free to help me with something? It is about the report.
+
+Best
+Sneha Joshi",general,neutral,no,Sneha Joshi,,,,standard
+39,Invitation,"Hi,
+
+We invite you to our workshop on cloud computing on 5 November at 2 pm. RSVP by next week.
+
+Thanks
+Sneha Joshi",event,neutral,no,Sneha Joshi,5 November,2 pm,,standard
+40,Order status,"Hello,
+
+Could you please share the tracking details for my order #ORD90931? The package has not arrived.
+
+Regards
+Sneha Joshi",order,neutral,no,Sneha Joshi,,,#ORD90931,standard
+41,Quick question,"Hi team,
+
+Do you know when the new office will be ready? Let me know when you can.
+
+Best
+Rahul Mehta",general,neutral,no,Rahul Mehta,,,,standard
+42,(hard case),"Hi team,
+
+The parcel never showed up even though the site said delivered. Order #ORD55123.
+
+Sincerely
+Anita Deshmukh",order,negative,no,Anita Deshmukh,,,ORD55123,hard
+43,Payment,"Hi,
+
+I have made the payment of Rs. 8,500 for invoice INV-96846. Please share the receipt.
+
+Cheers
+Pooja Kulkarni",payment,neutral,no,Pooja Kulkarni,,,INV-96846,standard
+44,Payment,"Hi team,
+
+I have made the payment of Rs. 12,000 for invoice INV-48175. Please share the receipt.
+
+Regards
+Sneha Joshi",payment,neutral,no,Sneha Joshi,,,INV-48175,standard
+45,Complaint,"Dear Sir/Madam,
+
+The device stopped working after two days. I want a refund. This is a terrible experience.
+
+Thanks
+Amit Patil",complaint,negative,no,Amit Patil,,,,standard
+46,Quick question,"Hi,
+
+Do you know when the new office will be ready? Let me know when you can.
+
+Cheers
+Tanvi Shah",general,neutral,no,Tanvi Shah,,,,standard
+47,Interview invitation,"Good morning,
+
+Thank you for applying. We would like to take the next round of interview on Friday at 11 am.
+
+Cheers
+Vikram Singh",interview,neutral,no,Vikram Singh,Friday,11 am,,standard
+48,Job application,"Hello,
+
+I would like to apply for the data analyst job. My CV is attached for your review.
+
+Thanks
+Amit Patil",application,neutral,no,Amit Patil,,,,standard
+49,Thank you,"Hi,
+
+I appreciate the guidance you gave me. Thank you again.
+
+Best
+Rahul Mehta",thanks,positive,no,Rahul Mehta,,,,standard
+50,Leave request,"Hello,
+
+I would like to request leave from 12 October to 5 November due to a family function.
+
+Best
+Karan Malhotra",leave,neutral,no,Karan Malhotra,12 October,,,standard
+51,Leave request,"Hello,
+
+Please approve my vacation leave starting 3 December. I will complete my pending work before that.
+
+Thanks
+Meera Iyer",leave,neutral,no,Meera Iyer,3 December,,,standard
+52,Invitation,"Hi team,
+
+We invite you to our workshop on cloud computing on Tuesday at 5 pm. RSVP by next week.
+
+Best
+Meera Iyer",event,neutral,no,Meera Iyer,Tuesday,5 pm,,standard
+53,Interview invitation,"Hello,
+
+Your interview with our hiring team is scheduled for Thursday at 11 am. Kindly confirm.
+
+Regards
+Rahul Mehta",interview,neutral,no,Rahul Mehta,Thursday,11 am,,standard
+54,Order status,"Good morning,
+
+I want to track my shipment for order #ORD86011.
+
+Cheers
+Manoj Pawar",order,neutral,no,Manoj Pawar,,,#ORD86011,standard
+55,Quick question,"Hi,
+
+Do you know when the new office will be ready? Let me know when you can.
+
+Best
+Amit Patil",general,neutral,no,Amit Patil,,,,standard
+56,Interview invitation,"Hello,
+
+Your interview with our hiring team is scheduled for 5 November at 10 am. Kindly confirm.
+
+Cheers
+Manoj Pawar",interview,neutral,no,Manoj Pawar,5 November,10 am,,standard
+57,Complaint,"Hi team,
+
+The device stopped working after two days. I want a refund. This is a terrible experience.
+
+Cheers
+Karan Malhotra",complaint,negative,no,Karan Malhotra,,,,standard
+58,Meeting request,"Hello,
+
+Please let me know if we can meet on Wednesday at 3 pm to discuss the launch plan.
+
+Regards
+Rahul Mehta",meeting,neutral,no,Rahul Mehta,Wednesday,3 pm,,standard
+59,Thank you,"Dear Sir/Madam,
+
+Thanks for the quick support yesterday. I am grateful for your time.
+
+Best
+Deepak Kulkarni",thanks,positive,no,Deepak Kulkarni,,,,standard
+60,Quick question,"Dear Sir/Madam,
+
+Just checking if the shared folder is working for everyone.
+
+Cheers
+Manoj Pawar",general,neutral,no,Manoj Pawar,,,,standard
+61,Thank you,"Dear Sir/Madam,
+
+I appreciate the guidance you gave me. Thank you again.
+
+Cheers
+Meera Iyer",thanks,positive,no,Meera Iyer,,,,standard
+62,Order status,"Hi team,
+
+Could you please share the tracking details for my order #ORD17104? The package has not arrived.
+
+Cheers
+Divya Menon",order,neutral,no,Divya Menon,,,#ORD17104,standard
+63,Thank you,"Dear Sir/Madam,
+
+Thanks for the quick support yesterday. I am grateful for your time.
+
+Thanks
+Deepak Kulkarni",thanks,positive,no,Deepak Kulkarni,,,,standard
+64,Interview invitation,"Hello,
+
+The candidate interview for the analyst role is planned on 3 December at 4 pm. Are you available?
+
+Best
+Amit Patil",interview,neutral,no,Amit Patil,3 December,4 pm,,standard
+65,(hard case),"Good morning,
+
+Can we catch up on Thursday at 4 pm?
+
+Thanks
+Anita Deshmukh",meeting,neutral,no,Anita Deshmukh,Thursday,4 pm,,hard
+66,Payment,"Good morning,
+
+Please find attached invoice INV-85392 for Rs. 12,000. Payment is due by Tuesday.
+
+Regards
+Vikram Singh",payment,neutral,no,Vikram Singh,Tuesday,,INV-85392,standard
+67,Job application,"Hi,
+
+I am interested in the open position of web developer and have attached my resume.
+
+Regards
+Sanjay Rao",application,neutral,no,Sanjay Rao,,,,standard
+68,Meeting request,"Dear Sir/Madam,
+
+I need to reschedule our meeting planned for 12 October. Can we do 2 pm instead?
+
+Thanks
+Karan Malhotra",meeting,neutral,no,Karan Malhotra,12 October,2 pm,,standard
+69,Payment,"Dear Sir/Madam,
+
+This is a reminder that your bill of $1,200 is due on 20 November. Kindly complete the payment.
+
+Thanks
+Manoj Pawar",payment,neutral,no,Manoj Pawar,20 November,,,standard
+70,Invitation,"Good morning,
+
+You are invited to our annual conference on 5 November at 2 pm. Please RSVP.
+
+Sincerely
+Farhan Sheikh",event,neutral,no,Farhan Sheikh,5 November,2 pm,,standard
+71,Order status,"Hello,
+
+I placed an order #ORD81228 last week and it has not been delivered yet. Can you tell me the shipping status?
+
+Thanks
+Farhan Sheikh",order,neutral,no,Farhan Sheikh,,,#ORD81228,standard
+72,Payment,"Hello,
+
+This is a reminder that your bill of $12,000 is due on 5 November. Kindly complete the payment.
+
+Thanks
+Neha Verma",payment,neutral,no,Neha Verma,5 November,,,standard
+73,Complaint,"Dear Sir/Madam,
+
+The device stopped working after two days. I want a refund. This is a terrible experience. I need this resolved immediately.
+
+Best
+Karan Malhotra",complaint,negative,yes,Karan Malhotra,,,,standard
+74,Meeting request,"Hi,
+
+Can we schedule a meeting on 5 November at 4 pm to discuss the project?
+
+Thanks
+Amit Patil",meeting,neutral,no,Amit Patil,5 November,4 pm,,standard
+75,(hard case),"Hi team,
+
+The product was great but delivery was late and the packaging was damaged. I want a refund.
+
+Regards
+Meera Iyer",complaint,negative,no,Meera Iyer,,,,hard
+76,Leave request,"Good morning,
+
+I need a day off on 3 December for a personal matter. Kindly grant leave.
+
+Sincerely
+Kavita Nair",leave,neutral,no,Kavita Nair,3 December,,,standard
+77,(hard case),"Good morning,
+
+It was great working with you. Thanks a lot!
+
+Best
+Ankit Desai",thanks,positive,no,Ankit Desai,,,,hard
+78,Job application,"Hi,
+
+I would like to apply for the data analyst job. My CV is attached for your review.
+
+Thanks
+Vikram Singh",application,neutral,no,Vikram Singh,,,,standard
+79,Meeting request,"Hi,
+
+Are you available for a quick sync on 12 October at 11 am?
+
+Cheers
+Amit Patil",meeting,neutral,no,Amit Patil,12 October,11 am,,standard
+80,Leave request,"Hello,
+
+I need a day off on Monday for a personal matter. Kindly grant leave.
+
+Cheers
+Karan Malhotra",leave,neutral,no,Karan Malhotra,Monday,,,standard
+81,Meeting request,"Hi,
+
+Please let me know if we can meet on 5 November at 4 pm to discuss the launch plan.
+
+Sincerely
+Priya Sharma",meeting,neutral,no,Priya Sharma,5 November,4 pm,,standard
+82,Meeting request,"Good morning,
+
+I would like to set up a call on 15 January at 10 am with the design team.
+
+Regards
+Arjun Reddy",meeting,neutral,no,Arjun Reddy,15 January,10 am,,standard
+83,Job application,"Hi,
+
+I would like to apply for the data analyst job. My CV is attached for your review.
+
+Thanks
+Neha Verma",application,neutral,no,Neha Verma,,,,standard
+84,Thank you,"Hello,
+
+Thank you so much for your help with the project. I really appreciate it.
+
+Sincerely
+Divya Menon",thanks,positive,no,Divya Menon,,,,standard
+85,Complaint,"Dear Sir/Madam,
+
+My order #AB67654 arrived damaged and I need a refund. I am very disappointed.
+
+Best
+Meera Iyer",complaint,negative,no,Meera Iyer,,,#AB67654,standard
+86,Payment,"Hello,
+
+I have made the payment of Rs. 45,000 for invoice INV-23176. Please share the receipt.
+
+Best
+Anita Deshmukh",payment,neutral,no,Anita Deshmukh,,,INV-23176,standard
+87,Invitation,"Hi team,
+
+We are hosting a webinar on data privacy on Tuesday at 11 am. We would love for you to join. Kindly RSVP.
+
+Cheers
+Vikram Singh",event,neutral,no,Vikram Singh,Tuesday,11 am,,standard
+88,Order status,"Good morning,
+
+I placed an order #ORD52372 last week and it has not been delivered yet. Can you tell me the shipping status?
+
+Regards
+Deepak Kulkarni",order,neutral,no,Deepak Kulkarni,,,#ORD52372,standard
+89,Invitation,"Hi team,
+
+Join us for the company party on 12 October at 4 pm. Please confirm your attendance with an RSVP.
+
+Regards
+Divya Menon",event,neutral,no,Divya Menon,12 October,4 pm,,standard
+90,Payment,"Hi,
+
+We have not received the payment for invoice INV-41439. Please pay at the earliest.
+
+Cheers
+Kavita Nair",payment,neutral,no,Kavita Nair,,,INV-41439,standard
+91,Job application,"Hello,
+
+I am writing to apply for the marketing executive vacancy. Please find my resume attached.
+
+Best
+Vikram Singh",application,neutral,no,Vikram Singh,,,,standard
+92,Leave request,"Hi team,
+
+I am not feeling well and need sick leave on Thursday and 20 November.
+
+Best
+Ankit Desai",leave,neutral,no,Ankit Desai,Thursday,,,standard
+93,Quick question,"Hello,
+
+Just checking if the shared folder is working for everyone.
+
+Regards
+Rahul Mehta",general,neutral,no,Rahul Mehta,,,,standard
+94,Job application,"Hello,
+
+I am interested in the open position of web developer and have attached my resume.
+
+Regards
+Karan Malhotra",application,neutral,no,Karan Malhotra,,,,standard
+95,Interview invitation,"Hello,
+
+Thank you for applying. We would like to take the next round of interview on Monday at 10 am.
+
+Regards
+Arjun Reddy",interview,neutral,no,Arjun Reddy,Monday,10 am,,standard
+96,Leave request,"Good morning,
+
+Please approve my vacation leave starting 20 November. I will complete my pending work before that.
+
+Sincerely
+Manoj Pawar",leave,neutral,no,Manoj Pawar,20 November,,,standard
+97,Quick question,"Hi team,
+
+Do you know when the new office will be ready? Let me know when you can.
+
+Cheers
+Deepak Kulkarni",general,neutral,no,Deepak Kulkarni,,,,standard
+98,Quick question,"Dear Sir/Madam,
+
+What is the plan for next week's work?
+
+Best
+Ankit Desai",general,neutral,no,Ankit Desai,,,,standard
+99,Thank you,"Hi team,
+
+Thanks for the quick support yesterday. I am grateful for your time.
+
+Sincerely
+Manoj Pawar",thanks,positive,no,Manoj Pawar,,,,standard
+100,Meeting request,"Dear Sir/Madam,
+
+Are you available for a quick sync on 3 December at 5 pm?
+
+Regards
+Karan Malhotra",meeting,neutral,no,Karan Malhotra,3 December,5 pm,,standard
+101,Job application,"Good morning,
+
+I am interested in the open position of web developer and have attached my resume.
+
+Sincerely
+Anita Deshmukh",application,neutral,no,Anita Deshmukh,,,,standard
+102,Thank you,"Hi team,
+
+Many thanks for sending the notes. I truly appreciate your effort.
+
+Sincerely
+Sneha Joshi",thanks,positive,no,Sneha Joshi,,,,standard
+103,Order status,"Hello,
+
+Could you please share the tracking details for my order #ORD41946? The package has not arrived.
+
+Sincerely
+Deepak Kulkarni",order,neutral,no,Deepak Kulkarni,,,#ORD41946,standard
+104,Leave request,"Dear Sir/Madam,
+
+I need a day off on 5 November for a personal matter. Kindly grant leave.
+
+Sincerely
+Meera Iyer",leave,neutral,no,Meera Iyer,5 November,,,standard
+105,Complaint,"Good morning,
+
+This is the worst service. The product is broken and nobody has fixed the problem.
+
+Regards
+Divya Menon",complaint,negative,no,Divya Menon,,,,standard
+106,Quick question,"Hi,
+
+What is the plan for next week's work?
+
+Sincerely
+Anita Deshmukh",general,neutral,no,Anita Deshmukh,,,,standard
+107,Order status,"Hi,
+
+My order #ORD23173 was supposed to be delivered on 5 November. Please update me on the delivery.
+
+Regards
+Sneha Joshi",order,neutral,no,Sneha Joshi,5 November,,#ORD23173,standard
+108,Payment,"Good morning,
+
+This is a reminder that your bill of $8,500 is due on Wednesday. Kindly complete the payment.
+
+Cheers
+Kavita Nair",payment,neutral,no,Kavita Nair,Wednesday,,,standard
+109,Interview invitation,"Hi,
+
+We would like to invite you for an interview for the Software Engineer position on Tuesday at 2 pm. Please confirm your availability.
+
+Regards
+Rahul Mehta",interview,neutral,no,Rahul Mehta,Tuesday,2 pm,,standard
+110,Invitation,"Hi,
+
+We are hosting a webinar on data privacy on 5 November at 4 pm. We would love for you to join. Kindly RSVP.
+
+Thanks
+Vikram Singh",event,neutral,no,Vikram Singh,5 November,4 pm,,standard
+111,Payment,"Hello,
+
+Please find attached invoice INV-87304 for Rs. 45,000. Payment is due by Thursday.
+
+Thanks
+Pooja Kulkarni",payment,neutral,no,Pooja Kulkarni,Thursday,,INV-87304,standard
+112,Complaint,"Hi,
+
+This is the worst service. The product is broken and nobody has fixed the problem. I need this resolved immediately.
+
+Cheers
+Farhan Sheikh",complaint,negative,yes,Farhan Sheikh,,,,standard
+113,(hard case),"Hello,
+
+I won't be in office tomorrow because I have a fever.
+
+Best
+Amit Patil",leave,neutral,no,Amit Patil,,,,hard
+114,Order status,"Good morning,
+
+I placed an order #ORD25396 last week and it has not been delivered yet. Can you tell me the shipping status?
+
+Best
+Sneha Joshi",order,neutral,no,Sneha Joshi,,,#ORD25396,standard
+115,Thank you,"Hi team,
+
+I appreciate the guidance you gave me. Thank you again.
+
+Best
+Deepak Kulkarni",thanks,positive,no,Deepak Kulkarni,,,,standard
+116,Quick question,"Hi,
+
+What is the plan for next week's work?
+
+Best
+Sanjay Rao",general,neutral,no,Sanjay Rao,,,,standard
+117,Job application,"Hi,
+
+I am writing to apply for the marketing executive vacancy. Please find my resume attached.
+
+Cheers
+Sneha Joshi",application,neutral,no,Sneha Joshi,,,,standard
+118,Job application,"Hi team,
+
+I am interested in the open position of web developer and have attached my resume.
+
+Sincerely
+Pooja Kulkarni",application,neutral,no,Pooja Kulkarni,,,,standard
+119,Thank you,"Dear Sir/Madam,
+
+Thanks for the quick support yesterday. I am grateful for your time.
+
+Sincerely
+Sneha Joshi",thanks,positive,no,Sneha Joshi,,,,standard
+120,Complaint,"Hi team,
+
+I have a complaint about the delay. The issue has not been solved for three days and this is unacceptable. I need this resolved immediately.
+
+Sincerely
+Ritu Kapoor",complaint,negative,yes,Ritu Kapoor,,,,standard
+121,(hard case),"Hi team,
+
+Looking for opportunities in your design team. Resume attached.
+
+Sincerely
+Kavita Nair",application,neutral,no,Kavita Nair,,,,hard
+122,Leave request,"Dear Sir/Madam,
+
+I am not feeling well and need sick leave on Monday and 5 November.
+
+Sincerely
+Amit Patil",leave,neutral,no,Amit Patil,Monday,,,standard
+123,Job application,"Dear Sir/Madam,
+
+I would like to apply for the data analyst job. My CV is attached for your review.
+
+Thanks
+Tanvi Shah",application,neutral,no,Tanvi Shah,,,,standard
+124,Interview invitation,"Hello,
+
+Your interview with our hiring team is scheduled for Friday at 11 am. Kindly confirm.
+
+Best
+Pooja Kulkarni",interview,neutral,no,Pooja Kulkarni,Friday,11 am,,standard
+125,Meeting request,"Hello,
+
+I would like to set up a call on Friday at 11 am with the design team.
+
+Best
+Anita Deshmukh",meeting,neutral,no,Anita Deshmukh,Friday,11 am,,standard
+126,Meeting request,"Good morning,
+
+Are you available for a quick sync on Tuesday at 10 am?
+
+Regards
+Ritu Kapoor",meeting,neutral,no,Ritu Kapoor,Tuesday,10 am,,standard
+127,(hard case),"Hello,
+
+Let's talk about the budget on Monday at 11 am.
+
+Sincerely
+Priya Sharma",meeting,neutral,no,Priya Sharma,Monday,11 am,,hard
+128,Complaint,"Hi team,
+
+The device stopped working after two days. I want a refund. This is a terrible experience.
+
+Cheers
+Sneha Joshi",complaint,negative,no,Sneha Joshi,,,,standard
+129,(hard case),"Hi team,
+
+Kindly clear the pending bill of Rs. 8,500 due on Wednesday.
+
+Sincerely
+Anita Deshmukh",payment,neutral,no,Anita Deshmukh,Wednesday,,,hard
+130,Complaint,"Hello,
+
+My order #AB12540 arrived damaged and I need a refund. I am very disappointed.
+
+Regards
+Anita Deshmukh",complaint,negative,no,Anita Deshmukh,,,#AB12540,standard
+131,(hard case),"Good morning,
+
+The app keeps crashing and I am frustrated. This is not working at all, please fix it urgently.
+
+Best
+Sanjay Rao",complaint,negative,yes,Sanjay Rao,,,,hard
+132,(hard case),"Good morning,
+
+Thanks, but my order #ORD88220 is still missing and I am disappointed.
+
+Sincerely
+Anita Deshmukh",order,negative,no,Anita Deshmukh,,,ORD88220,hard
+133,Complaint,"Hello,
+
+This is the worst service. The product is broken and nobody has fixed the problem. I need this resolved immediately.
+
+Regards
+Sanjay Rao",complaint,negative,yes,Sanjay Rao,,,,standard
+134,Invitation,"Hi team,
+
+You are invited to our annual conference on Monday at 3 pm. Please RSVP.
+
+Regards
+Tanvi Shah",event,neutral,no,Tanvi Shah,Monday,3 pm,,standard
+135,Interview invitation,"Hello,
+
+The candidate interview for the analyst role is planned on 3 December at 10 am. Are you available?
+
+Cheers
+Tanvi Shah",interview,neutral,no,Tanvi Shah,3 December,10 am,,standard
+136,Job application,"Hi,
+
+Please consider my application for the content writer vacancy. My CV is enclosed.
+
+Best
+Vikram Singh",application,neutral,no,Vikram Singh,,,,standard
+137,Payment,"Good morning,
+
+We have not received the payment for invoice INV-49857. Please pay at the earliest.
+
+Cheers
+Arjun Reddy",payment,neutral,no,Arjun Reddy,,,INV-49857,standard
+138,(hard case),"Good morning,
+
+Could you confirm if you received the files?
+
+Best
+Pooja Kulkarni",general,neutral,no,Pooja Kulkarni,,,,hard
+139,Order status,"Hi team,
+
+My order #ORD81987 was supposed to be delivered on Monday. Please update me on the delivery.
+
+Regards
+Manoj Pawar",order,neutral,no,Manoj Pawar,Monday,,#ORD81987,standard
+140,(hard case),"Dear Sir/Madam,
+
+Do we have a holiday on Friday?
+
+Regards
+Farhan Sheikh",general,neutral,no,Farhan Sheikh,Friday,,,hard
+141,(hard case),"Good morning,
+
+Heartfelt thanks for the invitation to the conference.
+
+Cheers
+Tanvi Shah",thanks,positive,no,Tanvi Shah,,,,hard
+142,Payment,"Dear Sir/Madam,
+
+Please find attached invoice INV-97026 for Rs. 1,200. Payment is due by 5 November.
+
+Cheers
+Arjun Reddy",payment,neutral,no,Arjun Reddy,5 November,,INV-97026,standard
+143,Interview invitation,"Hi,
+
+We would like to invite you for an interview for the Software Engineer position on Friday at 3 pm. Please confirm your availability.
+
+Sincerely
+Arjun Reddy",interview,neutral,no,Arjun Reddy,Friday,3 pm,,standard
+144,Payment,"Good morning,
+
+I have made the payment of Rs. 12,000 for invoice INV-49824. Please share the receipt.
+
+Cheers
+Neha Verma",payment,neutral,no,Neha Verma,,,INV-49824,standard
+145,Leave request,"Good morning,
+
+I would like to request leave from Friday to 5 November due to a family function.
+
+Sincerely
+Ritu Kapoor",leave,neutral,no,Ritu Kapoor,Friday,,,standard
+146,Order status,"Good morning,
+
+My order #ORD81643 was supposed to be delivered on 20 November. Please update me on the delivery.
+
+Best
+Anita Deshmukh",order,neutral,no,Anita Deshmukh,20 November,,#ORD81643,standard
+147,Invitation,"Hello,
+
+You are invited to our annual conference on 5 November at 10 am. Please RSVP.
+
+Best
+Ankit Desai",event,neutral,no,Ankit Desai,5 November,10 am,,standard
+148,(hard case),"Hi,
+
+Is the printer on the third floor working?
+
+Cheers
+Sanjay Rao",general,neutral,no,Sanjay Rao,,,,hard
+149,Order status,"Hi team,
+
+I placed an order #ORD62098 last week and it has not been delivered yet. Can you tell me the shipping status?
+
+Best
+Pooja Kulkarni",order,neutral,no,Pooja Kulkarni,,,#ORD62098,standard
+150,Leave request,"Hi,
+
+I would like to request leave from Wednesday to Friday due to a family function.
+
+Thanks
+Neha Verma",leave,neutral,no,Neha Verma,Wednesday,,,standard
+151,Meeting request,"Good morning,
+
+Can we schedule a meeting on Wednesday at 10 am to discuss the project?
+
+Thanks
+Arjun Reddy",meeting,neutral,no,Arjun Reddy,Wednesday,10 am,,standard
+152,(hard case),"Good morning,
+
+Sorry I cannot attend the meeting on Monday at 10 am. Can we move it?
+
+Regards
+Sanjay Rao",meeting,neutral,no,Sanjay Rao,Monday,10 am,,hard
+153,Order status,"Good morning,
+
+I placed an order #ORD32946 last week and it has not been delivered yet. Can you tell me the shipping status?
+
+Thanks
+Deepak Kulkarni",order,neutral,no,Deepak Kulkarni,,,#ORD32946,standard
+154,Complaint,"Good morning,
+
+My order #AB69087 arrived damaged and I need a refund. I am very disappointed.
+
+Cheers
+Karan Malhotra",complaint,negative,no,Karan Malhotra,,,#AB69087,standard
+155,Order status,"Hi team,
+
+I want to track my shipment for order #ORD30758.
+
+Regards
+Pooja Kulkarni",order,neutral,no,Pooja Kulkarni,,,#ORD30758,standard
+156,Complaint,"Hi team,
+
+I have a complaint about the delay. The issue has not been solved for three days and this is unacceptable. This is urgent.
+
+Sincerely
+Ritu Kapoor",complaint,negative,yes,Ritu Kapoor,,,,standard
+157,Job application,"Dear Sir/Madam,
+
+Please consider my application for the content writer vacancy. My CV is enclosed.
+
+Best
+Amit Patil",application,neutral,no,Amit Patil,,,,standard
+158,Quick question,"Good morning,
+
+Just checking if the shared folder is working for everyone.
+
+Best
+Priya Sharma",general,neutral,no,Priya Sharma,,,,standard
+159,Complaint,"Hello,
+
+I have a complaint about the delay. The issue has not been solved for three days and this is unacceptable.
+
+Sincerely
+Ritu Kapoor",complaint,negative,no,Ritu Kapoor,,,,standard
+160,Job application,"Dear Sir/Madam,
+
+Please consider my application for the content writer vacancy. My CV is enclosed.
+
+Cheers
+Arjun Reddy",application,neutral,no,Arjun Reddy,,,,standard
+161,Job application,"Hi team,
+
+Please consider my application for the content writer vacancy. My CV is enclosed.
+
+Regards
+Meera Iyer",application,neutral,no,Meera Iyer,,,,standard
+162,Thank you,"Good morning,
+
+Many thanks for sending the notes. I truly appreciate your effort.
+
+Cheers
+Neha Verma",thanks,positive,no,Neha Verma,,,,standard
+163,Invitation,"Hi team,
+
+Join us for the company party on 3 December at 4 pm. Please confirm your attendance with an RSVP.
+
+Regards
+Rahul Mehta",event,neutral,no,Rahul Mehta,3 December,4 pm,,standard
+164,Order status,"Dear Sir/Madam,
+
+My order #ORD46208 was supposed to be delivered on 3 December. Please update me on the delivery.
+
+Regards
+Arjun Reddy",order,neutral,no,Arjun Reddy,3 December,,#ORD46208,standard
+165,Invitation,"Dear Sir/Madam,
+
+Join us for the company party on Monday at 4 pm. Please confirm your attendance with an RSVP.
+
+Cheers
+Ritu Kapoor",event,neutral,no,Ritu Kapoor,Monday,4 pm,,standard
+166,Leave request,"Hi,
+
+I am not feeling well and need sick leave on 12 October and 20 November.
+
+Best
+Kavita Nair",leave,neutral,no,Kavita Nair,12 October,,,standard
+167,Complaint,"Dear Sir/Madam,
+
+The device stopped working after two days. I want a refund. This is a terrible experience. Please reply ASAP.
+
+Cheers
+Deepak Kulkarni",complaint,negative,yes,Deepak Kulkarni,,,,standard
+168,Invitation,"Hello,
+
+We invite you to our workshop on cloud computing on Monday at 4 pm. RSVP by next week.
+
+Thanks
+Arjun Reddy",event,neutral,no,Arjun Reddy,Monday,4 pm,,standard
+169,Quick question,"Dear Sir/Madam,
+
+Just checking if the shared folder is working for everyone.
+
+Thanks
+Amit Patil",general,neutral,no,Amit Patil,,,,standard
+170,Meeting request,"Good morning,
+
+I would like to set up a call on Friday at 3 pm with the design team.
+
+Cheers
+Sanjay Rao",meeting,neutral,no,Sanjay Rao,Friday,3 pm,,standard
+171,(hard case),"Dear Sir/Madam,
+
+You are cordially invited to the launch party on Friday at 3 pm.
+
+Cheers
+Vikram Singh",event,neutral,no,Vikram Singh,Friday,3 pm,,hard
+172,Meeting request,"Good morning,
+
+Are you available for a quick sync on 12 October at 5 pm?
+
+Thanks
+Kavita Nair",meeting,neutral,no,Kavita Nair,12 October,5 pm,,standard
+173,Meeting request,"Good morning,
+
+Can we schedule a meeting on 20 November at 5 pm to discuss the project?
+
+Sincerely
+Meera Iyer",meeting,neutral,no,Meera Iyer,20 November,5 pm,,standard
+174,Invitation,"Dear Sir/Madam,
+
+You are invited to our annual conference on 20 November at 3 pm. Please RSVP.
+
+Thanks
+Vikram Singh",event,neutral,no,Vikram Singh,20 November,3 pm,,standard
+175,Payment,"Good morning,
+
+We have not received the payment for invoice INV-24953. Please pay at the earliest.
+
+Regards
+Amit Patil",payment,neutral,no,Amit Patil,,,INV-24953,standard
+176,Invitation,"Hi,
+
+Join us for the company party on 20 November at 3 pm. Please confirm your attendance with an RSVP.
+
+Best
+Arjun Reddy",event,neutral,no,Arjun Reddy,20 November,3 pm,,standard
+177,Invitation,"Dear Sir/Madam,
+
+We invite you to our workshop on cloud computing on 20 November at 2 pm. RSVP by next week.
+
+Regards
+Ritu Kapoor",event,neutral,no,Ritu Kapoor,20 November,2 pm,,standard
+178,Thank you,"Hi team,
+
+Thank you so much for your help with the project. I really appreciate it.
+
+Regards
+Rahul Mehta",thanks,positive,no,Rahul Mehta,,,,standard
+179,Quick question,"Hi,
+
+Could you share the updated project notes when possible?
+
+Cheers
+Anita Deshmukh",general,neutral,no,Anita Deshmukh,,,,standard
+180,(hard case),"Dear Sir/Madam,
+
+Your account was charged twice for invoice INV-33012. Please check the transaction.
+
+Best
+Manoj Pawar",payment,negative,no,Manoj Pawar,,,INV-33012,hard
+181,Invitation,"Good morning,
+
+You are invited to our annual conference on 20 November at 10 am. Please RSVP.
+
+Thanks
+Vikram Singh",event,neutral,no,Vikram Singh,20 November,10 am,,standard
+182,Invitation,"Hello,
+
+We invite you to our workshop on cloud computing on Tuesday at 5 pm. RSVP by next week.
+
+Cheers
+Arjun Reddy",event,neutral,no,Arjun Reddy,Tuesday,5 pm,,standard
+183,Leave request,"Hello,
+
+I need a day off on 15 January for a personal matter. Kindly grant leave.
+
+Best
+Priya Sharma",leave,neutral,no,Priya Sharma,15 January,,,standard
+184,(hard case),"Dear Sir/Madam,
+
+I am writing to apply for leave next week as well as submit my project.
+
+Cheers
+Amit Patil",leave,neutral,no,Amit Patil,,,,hard
+185,(hard case),"Hi,
+
+Please find my profile attached for the open role of Java developer.
+
+Regards
+Meera Iyer",application,neutral,no,Meera Iyer,,,,hard
+186,Interview invitation,"Hello,
+
+The candidate interview for the analyst role is planned on Wednesday at 4 pm. Are you available?
+
+Regards
+Ritu Kapoor",interview,neutral,no,Ritu Kapoor,Wednesday,4 pm,,standard
+187,Job application,"Hi,
+
+I am writing to apply for the marketing executive vacancy. Please find my resume attached.
+
+Thanks
+Neha Verma",application,neutral,no,Neha Verma,,,,standard
+188,Invitation,"Hello,
+
+We are hosting a webinar on data privacy on Friday at 10 am. We would love for you to join. Kindly RSVP.
+
+Cheers
+Kavita Nair",event,neutral,no,Kavita Nair,Friday,10 am,,standard
+189,(hard case),"Good morning,
+
+Where is my package? Order #ORD77001 should have come on Friday.
+
+Thanks
+Rahul Mehta",order,neutral,no,Rahul Mehta,Friday,,ORD77001,hard
+190,Thank you,"Hi,
+
+Thank you so much for your help with the project. I really appreciate it.
+
+Cheers
+Anita Deshmukh",thanks,positive,no,Anita Deshmukh,,,,standard
+191,(hard case),"Hello,
+
+Interview round two is on 20 November at 10 am. Please be ready with your portfolio.
+
+Thanks
+Sneha Joshi",interview,neutral,no,Sneha Joshi,20 November,10 am,,hard
+192,Complaint,"Good morning,
+
+I have a complaint about the delay. The issue has not been solved for three days and this is unacceptable.
+
+Sincerely
+Kavita Nair",complaint,negative,no,Kavita Nair,,,,standard
+193,(hard case),"Hi team,
+
+Please share the slides from yesterday.
+
+Regards
+Kavita Nair",general,neutral,no,Kavita Nair,,,,hard
+194,Thank you,"Dear Sir/Madam,
+
+I appreciate the guidance you gave me. Thank you again.
+
+Best
+Ankit Desai",thanks,positive,no,Ankit Desai,,,,standard
+195,Leave request,"Hi team,
+
+Please approve my vacation leave starting 12 October. I will complete my pending work before that.
+
+Best
+Farhan Sheikh",leave,neutral,no,Farhan Sheikh,12 October,,,standard
+196,Complaint,"Hi,
+
+My order #AB38906 arrived damaged and I need a refund. I am very disappointed. Please reply ASAP.
+
+Cheers
+Tanvi Shah",complaint,negative,yes,Tanvi Shah,,,#AB38906,standard
+197,Interview invitation,"Good morning,
+
+We would like to invite you for an interview for the Software Engineer position on 3 December at 10 am. Please confirm your availability.
+
+Sincerely
+Priya Sharma",interview,neutral,no,Priya Sharma,3 December,10 am,,standard
+198,Complaint,"Hi,
+
+My order #AB92213 arrived damaged and I need a refund. I am very disappointed. Please reply ASAP.
+
+Sincerely
+Divya Menon",complaint,negative,yes,Divya Menon,,,#AB92213,standard
+199,(hard case),"Hi,
+
+We will pay the outstanding amount of Rs. 20,000 by 15 January.
+
+Sincerely
+Manoj Pawar",payment,neutral,no,Manoj Pawar,15 January,,,hard
+200,(hard case),"Good morning,
+
+We shortlisted you for the position and want to talk to you on Tuesday at 2 pm.
+
+Thanks
+Anita Deshmukh",interview,neutral,no,Anita Deshmukh,Tuesday,2 pm,,hard
+201,Leave request,"Hi team,
+
+I am not feeling well and need sick leave on Wednesday and 3 December.
+
+Thanks
+Neha Verma",leave,neutral,no,Neha Verma,Wednesday,,,standard
+202,Quick question,"Dear Sir/Madam,
+
+Are you free to help me with something? It is about the report.
+
+Cheers
+Kavita Nair",general,neutral,no,Kavita Nair,,,,standard
+203,Payment,"Dear Sir/Madam,
+
+We have not received the payment for invoice INV-80236. Please pay at the earliest.
+
+Sincerely
+Tanvi Shah",payment,neutral,no,Tanvi Shah,,,INV-80236,standard
+204,Leave request,"Dear Sir/Madam,
+
+I am not feeling well and need sick leave on 3 December and Monday.
+
+Best
+Rahul Mehta",leave,neutral,no,Rahul Mehta,3 December,,,standard
+205,Leave request,"Good morning,
+
+Please approve my vacation leave starting Monday. I will complete my pending work before that.
+
+Cheers
+Anita Deshmukh",leave,neutral,no,Anita Deshmukh,Monday,,,standard
+206,Complaint,"Dear Sir/Madam,
+
+This is the worst service. The product is broken and nobody has fixed the problem. Please reply ASAP.
+
+Best
+Vikram Singh",complaint,negative,yes,Vikram Singh,,,,standard
+207,Interview invitation,"Hi,
+
+The candidate interview for the analyst role is planned on Friday at 10 am. Are you available?
+
+Best
+Rahul Mehta",interview,neutral,no,Rahul Mehta,Friday,10 am,,standard
+208,(hard case),"Hello,
+
+Need to discuss the invoice problem on a call tomorrow.
+
+Thanks
+Neha Verma",meeting,neutral,no,Neha Verma,,,,hard
+209,Interview invitation,"Hi team,
+
+The candidate interview for the analyst role is planned on 3 December at 11 am. Are you available?
+
+Regards
+Meera Iyer",interview,neutral,no,Meera Iyer,3 December,11 am,,standard
+210,Meeting request,"Dear Sir/Madam,
+
+I need to reschedule our meeting planned for Friday. Can we do 10 am instead?
+
+Sincerely
+Priya Sharma",meeting,neutral,no,Priya Sharma,Friday,10 am,,standard
+211,Job application,"Dear Sir/Madam,
+
+I am writing to apply for the marketing executive vacancy. Please find my resume attached.
+
+Cheers
+Manoj Pawar",application,neutral,no,Manoj Pawar,,,,standard
+212,Order status,"Hi,
+
+My order #ORD26547 was supposed to be delivered on Wednesday. Please update me on the delivery.
+
+Sincerely
+Manoj Pawar",order,neutral,no,Manoj Pawar,Wednesday,,#ORD26547,standard
+213,Interview invitation,"Hello,
+
+Your interview with our hiring team is scheduled for 3 December at 2 pm. Kindly confirm.
+
+Best
+Deepak Kulkarni",interview,neutral,no,Deepak Kulkarni,3 December,2 pm,,standard
+214,Quick question,"Dear Sir/Madam,
+
+Are you free to help me with something? It is about the report.
+
+Regards
+Arjun Reddy",general,neutral,no,Arjun Reddy,,,,standard
+215,Leave request,"Dear Sir/Madam,
+
+Please approve my vacation leave starting Friday. I will complete my pending work before that.
+
+Regards
+Pooja Kulkarni",leave,neutral,no,Pooja Kulkarni,Friday,,,standard
+216,Invitation,"Good morning,
+
+Join us for the company party on Friday at 2 pm. Please confirm your attendance with an RSVP.
+
+Cheers
+Sanjay Rao",event,neutral,no,Sanjay Rao,Friday,2 pm,,standard
+217,Thank you,"Hello,
+
+Many thanks for sending the notes. I truly appreciate your effort.
+
+Regards
+Divya Menon",thanks,positive,no,Divya Menon,,,,standard
+218,Invitation,"Good morning,
+
+We are hosting a webinar on data privacy on Tuesday at 4 pm. We would love for you to join. Kindly RSVP.
+
+Sincerely
+Divya Menon",event,neutral,no,Divya Menon,Tuesday,4 pm,,standard
+219,Quick question,"Hi,
+
+What is the plan for next week's work?
+
+Cheers
+Rahul Mehta",general,neutral,no,Rahul Mehta,,,,standard
+220,(hard case),"Good morning,
+
+Hope to see you at the annual day function on 3 December at 5 pm. Please let us know if you can come.
+
+Regards
+Deepak Kulkarni",event,neutral,no,Deepak Kulkarni,3 December,5 pm,,hard
+221,(hard case),"Good morning,
+
+Join our free workshop next week. Register using the link below.
+
+Regards
+Ritu Kapoor",event,neutral,no,Ritu Kapoor,,,,hard
+222,Payment,"Dear Sir/Madam,
+
+Please find attached invoice INV-39581 for Rs. 8,500. Payment is due by 15 January.
+
+Sincerely
+Manoj Pawar",payment,neutral,no,Manoj Pawar,15 January,,INV-39581,standard
+223,Job application,"Good morning,
+
+I am writing to apply for the marketing executive vacancy. Please find my resume attached.
+
+Best
+Anita Deshmukh",application,neutral,no,Anita Deshmukh,,,,standard
+224,Thank you,"Dear Sir/Madam,
+
+I appreciate the guidance you gave me. Thank you again.
+
+Best
+Priya Sharma",thanks,positive,no,Priya Sharma,,,,standard
+225,Order status,"Hi,
+
+I want to track my shipment for order #ORD49599.
+
+Thanks
+Tanvi Shah",order,neutral,no,Tanvi Shah,,,#ORD49599,standard
+226,Order status,"Good morning,
+
+I want to track my shipment for order #ORD56984.
+
+Cheers
+Meera Iyer",order,neutral,no,Meera Iyer,,,#ORD56984,standard
+227,Meeting request,"Dear Sir/Madam,
+
+Please let me know if we can meet on Tuesday at 11 am to discuss the launch plan.
+
+Sincerely
+Kavita Nair",meeting,neutral,no,Kavita Nair,Tuesday,11 am,,standard
+228,Thank you,"Good morning,
+
+Thank you so much for your help with the project. I really appreciate it.
+
+Best
+Karan Malhotra",thanks,positive,no,Karan Malhotra,,,,standard
+229,Payment,"Hi,
+
+This is a reminder that your bill of $1,200 is due on 3 December. Kindly complete the payment.
+
+Thanks
+Meera Iyer",payment,neutral,no,Meera Iyer,3 December,,,standard
+230,Interview invitation,"Good morning,
+
+We would like to invite you for an interview for the Software Engineer position on 15 January at 4 pm. Please confirm your availability.
+
+Sincerely
+Ritu Kapoor",interview,neutral,no,Ritu Kapoor,15 January,4 pm,,standard
